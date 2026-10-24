@@ -1,0 +1,43 @@
+name: Garmin sync
+
+on:
+  schedule:
+    - cron: "15 5,11,17,21 * * *"   # 4x per dag (UTC)
+  push:
+    paths: ["requests/**"]          # Claude pusht een request -> direct ophalen
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Aantal dagen terug"
+        default: "14"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: garmin-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -q "git+https://github.com/Mason-Levyy/garmin-personal-mcp"
+      - name: Fetch
+        env:
+          GARMIN_PERSONAL_API_KEY: ${{ secrets.GARMIN_PERSONAL_API_KEY }}
+          DAYS: ${{ github.event.inputs.days || '14' }}
+        run: python scripts/fetch.py
+      - name: Commit
+        run: |
+          git config user.name "garmin-sync"
+          git config user.email "garmin-sync@users.noreply.github.com"
+          git add -A data responses requests
+          git diff --cached --quiet || git commit -m "Garmin sync $(date -u +%FT%TZ)"
+          git pull --rebase -q && git push -q

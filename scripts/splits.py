@@ -15,8 +15,8 @@ def _fit_bytes(blob: bytes) -> bytes:
 def _pace(sec, meters):
     if not meters:
         return None
-    s = sec / (meters / 1000)
-    return f"{int(s // 60)}:{int(round(s % 60)):02d}"
+    s = round(sec / (meters / 1000))
+    return f"{s // 60}:{s % 60:02d}"
 
 
 def parse(blob: bytes) -> dict:

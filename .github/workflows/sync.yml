@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "15 5,11,17,21 * * *"   # 4x per dag (UTC)
   push:
-    paths: ["requests/**"]          # Claude pusht een request -> direct ophalen
+    paths: ["requests/**", "scripts/**"]          # Claude pusht een request -> direct ophalen
   workflow_dispatch:
     inputs:
       days:
@@ -28,7 +28,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install
-        run: pip install -q "git+https://github.com/Mason-Levyy/garmin-personal-mcp"
+        run: pip install -q "git+https://github.com/Mason-Levyy/garmin-personal-mcp" fitdecode
       - name: Fetch
         env:
           GARMIN_PERSONAL_API_KEY: ${{ secrets.GARMIN_PERSONAL_API_KEY }}

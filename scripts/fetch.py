@@ -7,7 +7,9 @@
 """
 import asyncio, datetime as dt, json, os, pathlib, traceback
 
-from garmin_personal_mcp import server
+from garmin_personal_mcp import garmin_client, server
+
+import splits
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA, REQ, RESP = ROOT / "data", ROOT / "requests", ROOT / "responses"
@@ -42,9 +44,22 @@ async def sync():
         aid = a.get("activityId")
         date = str(a.get("startTimeLocal", ""))[:10]
         path = DATA / "activities" / f"{date}_{aid}.json"
-        if not path.exists() or date >= (today - dt.timedelta(days=2)).isoformat():
-            detail = await call("garmin_get_activity", activity_id=aid)
-            dump(path, {"summary": a, "detail": detail})
+        rec = json.loads(path.read_text()) if path.exists() else {}
+        if not rec or date >= (today - dt.timedelta(days=2)).isoformat():
+            rec = {**rec, "summary": a,
+                   "detail": await call("garmin_get_activity", activity_id=aid)}
+        if "km_splits" not in rec and "running" in str(a.get("activityType", {}).get("typeKey", "")):
+            try:
+                fit = DATA / "fit" / f"{aid}.zip"
+                if not fit.exists():
+                    blob = await asyncio.to_thread(
+                        garmin_client.call, lambda c: c.download_activity(aid))
+                    fit.parent.mkdir(parents=True, exist_ok=True)
+                    fit.write_bytes(blob)
+                rec.update(splits.parse(fit.read_bytes()))
+            except Exception as exc:
+                rec["splits_error"] = f"{type(exc).__name__}: {exc}"
+        dump(path, rec)
         overview.append({k: a.get(k) for k in (
             "activityId", "activityName", "startTimeLocal", "distance", "duration",
             "averageHR", "maxHR", "averageSpeed", "elevationGain", "calories",
@@ -55,7 +70,6 @@ async def sync():
         "synced_utc": dt.datetime.utcnow().isoformat(timespec="seconds"),
         "range": [start, end],
         "activities": overview,
-        "sleep": await call("garmin_get_sleep_summaries", start=start, end=end),
         "hrv": await call("garmin_get_hrv_summaries", start=start, end=end),
     })
 

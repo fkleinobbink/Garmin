@@ -413,5 +413,162 @@
     "avgStepFrequency": 0.0
    }
   ]
- }
+ },
+ "km_splits": [
+  {
+   "km": 1,
+   "tijd_s": 348,
+   "tempo": "5:48",
+   "hs": 124,
+   "hoogte": 1
+  },
+  {
+   "km": 2,
+   "tijd_s": 348,
+   "tempo": "5:48",
+   "hs": 131,
+   "hoogte": 0
+  },
+  {
+   "km": 3,
+   "tijd_s": 354,
+   "tempo": "5:54",
+   "hs": 133,
+   "hoogte": 2
+  },
+  {
+   "km": 4,
+   "tijd_s": 355,
+   "tempo": "5:55",
+   "hs": 138,
+   "hoogte": -2
+  },
+  {
+   "km": 5,
+   "tijd_s": 349,
+   "tempo": "5:49",
+   "hs": 143,
+   "hoogte": 2
+  },
+  {
+   "km": 6,
+   "tijd_s": 351,
+   "tempo": "5:51",
+   "hs": 147,
+   "hoogte": 2
+  },
+  {
+   "km": 7,
+   "tijd_s": 338,
+   "tempo": "5:38",
+   "hs": 151,
+   "hoogte": -1
+  },
+  {
+   "km": 8,
+   "tijd_s": 312,
+   "tempo": "5:12",
+   "hs": 157,
+   "hoogte": -1
+  },
+  {
+   "km": 0.05,
+   "tijd_s": 16,
+   "tempo": "5:15",
+   "hs": 170,
+   "hoogte": 0
+  }
+ ],
+ "laps": [
+  {
+   "km": 1.0,
+   "tijd_s": 348,
+   "tempo": "5:48",
+   "hs": 124,
+   "hs_max": 134,
+   "stijging": 1,
+   "daling": 1,
+   "cadans": 174
+  },
+  {
+   "km": 1.0,
+   "tijd_s": 348,
+   "tempo": "5:48",
+   "hs": 131,
+   "hs_max": 137,
+   "stijging": 1,
+   "daling": 1,
+   "cadans": 176
+  },
+  {
+   "km": 1.0,
+   "tijd_s": 354,
+   "tempo": "5:54",
+   "hs": 133,
+   "hs_max": 140,
+   "stijging": 2,
+   "daling": 0,
+   "cadans": 176
+  },
+  {
+   "km": 1.0,
+   "tijd_s": 355,
+   "tempo": "5:55",
+   "hs": 138,
+   "hs_max": 145,
+   "stijging": 0,
+   "daling": 3,
+   "cadans": 176
+  },
+  {
+   "km": 1.0,
+   "tijd_s": 349,
+   "tempo": "5:49",
+   "hs": 143,
+   "hs_max": 149,
+   "stijging": 1,
+   "daling": 0,
+   "cadans": 176
+  },
+  {
+   "km": 1.0,
+   "tijd_s": 351,
+   "tempo": "5:51",
+   "hs": 147,
+   "hs_max": 155,
+   "stijging": 2,
+   "daling": 0,
+   "cadans": 176
+  },
+  {
+   "km": 1.0,
+   "tijd_s": 338,
+   "tempo": "5:38",
+   "hs": 151,
+   "hs_max": 174,
+   "stijging": 1,
+   "daling": 1,
+   "cadans": 172
+  },
+  {
+   "km": 1.0,
+   "tijd_s": 312,
+   "tempo": "5:12",
+   "hs": 157,
+   "hs_max": 179,
+   "stijging": 3,
+   "daling": 5,
+   "cadans": 180
+  },
+  {
+   "km": 0.05,
+   "tijd_s": 16,
+   "tempo": "5:03",
+   "hs": 170,
+   "hs_max": 171,
+   "stijging": 0,
+   "daling": 0,
+   "cadans": 178
+  }
+ ]
 }

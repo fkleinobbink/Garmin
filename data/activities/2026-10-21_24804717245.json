@@ -379,5 +379,94 @@
     "avgStepLength": 0.9455000000000001
    }
   ]
- }
+ },
+ "km_splits": [
+  {
+   "km": 1,
+   "tijd_s": 359,
+   "tempo": "5:59",
+   "hs": 136,
+   "hoogte": -2
+  },
+  {
+   "km": 2,
+   "tijd_s": 362,
+   "tempo": "6:02",
+   "hs": 149,
+   "hoogte": 0
+  },
+  {
+   "km": 3,
+   "tijd_s": 381,
+   "tempo": "6:21",
+   "hs": 147,
+   "hoogte": 4
+  },
+  {
+   "km": 4,
+   "tijd_s": 374,
+   "tempo": "6:14",
+   "hs": 148,
+   "hoogte": -6
+  },
+  {
+   "km": 0.23,
+   "tijd_s": 82,
+   "tempo": "5:58",
+   "hs": 153,
+   "hoogte": -1
+  }
+ ],
+ "laps": [
+  {
+   "km": 1.0,
+   "tijd_s": 359,
+   "tempo": "5:59",
+   "hs": 136,
+   "hs_max": 152,
+   "stijging": 1,
+   "daling": 3,
+   "cadans": 168
+  },
+  {
+   "km": 1.0,
+   "tijd_s": 362,
+   "tempo": "6:02",
+   "hs": 149,
+   "hs_max": 157,
+   "stijging": 1,
+   "daling": 3,
+   "cadans": 172
+  },
+  {
+   "km": 1.0,
+   "tijd_s": 381,
+   "tempo": "6:21",
+   "hs": 147,
+   "hs_max": 151,
+   "stijging": 8,
+   "daling": 4,
+   "cadans": 170
+  },
+  {
+   "km": 1.0,
+   "tijd_s": 374,
+   "tempo": "6:14",
+   "hs": 148,
+   "hs_max": 154,
+   "stijging": 1,
+   "daling": 8,
+   "cadans": 172
+  },
+  {
+   "km": 0.23,
+   "tijd_s": 82,
+   "tempo": "5:57",
+   "hs": 153,
+   "hs_max": 155,
+   "stijging": 2,
+   "daling": 2,
+   "cadans": 174
+  }
+ ]
 }

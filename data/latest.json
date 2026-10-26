@@ -1,8 +1,8 @@
 {
- "synced_utc": "2026-10-25T23:14:07",
+ "synced_utc": "2026-10-26T11:03:01",
  "range": [
-  "2026-10-12",
-  "2026-10-25"
+  "2026-10-13",
+  "2026-10-26"
  ],
  "activities": [
   {
@@ -148,60 +148,6 @@
  ],
  "sleep": {
   "results": [
-   {
-    "id": null,
-    "userProfilePK": null,
-    "calendarDate": null,
-    "sleepTimeSeconds": null,
-    "napTimeSeconds": null,
-    "sleepWindowConfirmed": null,
-    "sleepWindowConfirmationType": null,
-    "sleepStartTimestampGMT": null,
-    "sleepEndTimestampGMT": null,
-    "sleepStartTimestampLocal": null,
-    "sleepEndTimestampLocal": null,
-    "autoSleepStartTimestampGMT": null,
-    "autoSleepEndTimestampGMT": null,
-    "sleepQualityTypePK": null,
-    "sleepResultTypePK": null,
-    "unmeasurableSleepSeconds": null,
-    "deepSleepSeconds": null,
-    "lightSleepSeconds": null,
-    "remSleepSeconds": null,
-    "awakeSleepSeconds": null,
-    "deviceRemCapable": false,
-    "retro": false,
-    "sleepNeed": {
-     "userProfilePk": 132104720,
-     "calendarDate": "2026-10-12",
-     "deviceId": 3527883467,
-     "timestampGmt": "2026-10-11T12:47:07",
-     "baseline": 480,
-     "actual": 480,
-     "feedback": "NO_CHANGE_NO_ADJUSTMENTS",
-     "trainingFeedback": "NO_CHANGE",
-     "sleepHistoryAdjustment": "NO_CHANGE",
-     "hrvAdjustment": "NO_DATA",
-     "napAdjustment": "NO_CHANGE",
-     "displayedForTheDay": false,
-     "preferredActivityTracker": true
-    },
-    "nextSleepNeed": {
-     "userProfilePk": 132104720,
-     "calendarDate": "2026-10-13",
-     "deviceId": 3527883467,
-     "timestampGmt": "2026-10-12T05:36:26",
-     "baseline": 480,
-     "actual": 480,
-     "feedback": "NO_CHANGE_NO_ADJUSTMENTS",
-     "trainingFeedback": "NO_CHANGE",
-     "sleepHistoryAdjustment": "NO_DATA",
-     "hrvAdjustment": "NO_DATA",
-     "napAdjustment": "NO_CHANGE",
-     "displayedForTheDay": false,
-     "preferredActivityTracker": true
-    }
-   },
    {
     "id": null,
     "userProfilePK": null,

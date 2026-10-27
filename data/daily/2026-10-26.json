@@ -61,7 +61,7 @@
   "stressQualifier": "CALM_AWAKE",
   "measurableAwakeDuration": 46080,
   "measurableAsleepDuration": 0,
-  "lastSyncTimestampGMT": "2026-10-26T20:59:54.640",
+  "lastSyncTimestampGMT": null,
   "minAvgHeartRate": 48,
   "maxAvgHeartRate": 166,
   "bodyBatteryChargedValue": 1,
@@ -424,13 +424,13 @@
    "endTimeGMT": "2026-10-26 20:44:30",
    "qualifyingDive": false,
    "activityUUID": "09c1e58c-0768-4f80-a58d-51e73d7bac86",
-   "autoCalcCalories": false,
-   "elevationCorrected": false,
-   "pr": false,
-   "decoDive": false,
    "manualActivity": false,
+   "decoDive": false,
    "parent": false,
-   "favorite": false
+   "pr": false,
+   "favorite": false,
+   "autoCalcCalories": false,
+   "elevationCorrected": false
   }
  ]
 }

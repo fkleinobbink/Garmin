@@ -235,14 +235,14 @@
     "FBT_ADAPTIVE"
    ],
    "hasMultiDayActivities": false,
-   "elevationCorrected": false,
    "runPowerWindDataEnabled": true,
    "trimmed": false,
-   "personalRecord": false,
    "autoCalcCalories": false,
    "favorite": false,
    "manualActivity": false,
-   "gcj02": false
+   "personalRecord": false,
+   "gcj02": false,
+   "elevationCorrected": false
   },
   "summaryDTO": {
    "startTimeLocal": "2026-10-27T17:46:35.0",

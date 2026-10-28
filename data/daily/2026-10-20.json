@@ -418,11 +418,11 @@
    "activityUUID": "46e0e93b-1a58-4e3e-b348-18e4abe05db9",
    "autoCalcCalories": false,
    "elevationCorrected": false,
-   "pr": false,
-   "decoDive": false,
+   "favorite": false,
    "manualActivity": false,
-   "parent": false,
-   "favorite": false
+   "decoDive": false,
+   "pr": false,
+   "parent": false
   }
  ]
 }

@@ -235,13 +235,13 @@
     "FBT_ADAPTIVE"
    ],
    "hasMultiDayActivities": false,
-   "manualActivity": false,
-   "autoCalcCalories": false,
-   "favorite": false,
-   "trimmed": false,
    "elevationCorrected": false,
    "runPowerWindDataEnabled": true,
+   "trimmed": false,
    "personalRecord": false,
+   "autoCalcCalories": false,
+   "favorite": false,
+   "manualActivity": false,
    "gcj02": false
   },
   "summaryDTO": {

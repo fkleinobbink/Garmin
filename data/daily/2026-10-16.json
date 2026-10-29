@@ -420,12 +420,12 @@
    "endTimeGMT": "2026-10-16 16:07:07",
    "qualifyingDive": false,
    "activityUUID": "ee99c6d3-8804-4ebd-a856-0655c2271dd0",
-   "pr": false,
    "autoCalcCalories": false,
-   "favorite": false,
    "elevationCorrected": false,
+   "favorite": false,
    "manualActivity": false,
    "decoDive": false,
+   "pr": false,
    "parent": false
   }
  ]

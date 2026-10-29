@@ -229,12 +229,12 @@
    "calendarEventInfo": null,
    "hasMultiDayActivities": false,
    "elevationCorrected": false,
-   "personalRecord": false,
-   "gcj02": false,
    "runPowerWindDataEnabled": true,
+   "trimmed": false,
    "autoCalcCalories": false,
    "favorite": false,
-   "trimmed": false,
+   "personalRecord": false,
+   "gcj02": false,
    "manualActivity": false
   },
   "summaryDTO": {

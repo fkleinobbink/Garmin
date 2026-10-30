@@ -1,8 +1,8 @@
 {
- "synced_utc": "2026-10-29T21:47:01",
+ "synced_utc": "2026-10-30T11:22:08",
  "range": [
-  "2026-10-16",
-  "2026-10-29"
+  "2026-10-17",
+  "2026-10-30"
  ],
  "activities": [
   {
@@ -159,26 +159,6 @@
    "aerobicTrainingEffect": 2.200000047683716,
    "anaerobicTrainingEffect": 0.5,
    "trainingEffectLabel": "RECOVERY",
-   "activityType": {
-    "typeId": 1,
-    "typeKey": "running",
-    "parentTypeId": 17
-   }
-  },
-  {
-   "activityId": 24746892715,
-   "activityName": "Amsterdam Hardlopen",
-   "startTimeLocal": "2026-10-16 17:37:48",
-   "distance": 5014.64013671875,
-   "duration": 1759.68798828125,
-   "averageHR": 140.0,
-   "maxHR": 168.0,
-   "averageSpeed": 2.8499999046325684,
-   "elevationGain": 16.0,
-   "calories": 422.0,
-   "aerobicTrainingEffect": 2.700000047683716,
-   "anaerobicTrainingEffect": 0.20000000298023224,
-   "trainingEffectLabel": "AEROBIC_BASE",
    "activityType": {
     "typeId": 1,
     "typeKey": "running",

@@ -366,12 +366,12 @@
    "qualifyingDive": false,
    "activityUUID": "8ad75dd8-a9e6-49c3-8784-60d77abb1415",
    "decoDive": false,
+   "manualActivity": false,
    "pr": false,
    "autoCalcCalories": false,
    "elevationCorrected": false,
-   "manualActivity": false,
-   "parent": false,
-   "favorite": false
+   "favorite": false,
+   "parent": false
   }
  ]
 }

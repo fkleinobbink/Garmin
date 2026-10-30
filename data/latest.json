@@ -1,10 +1,30 @@
 {
- "synced_utc": "2026-10-30T11:22:08",
+ "synced_utc": "2026-10-30T11:54:24",
  "range": [
   "2026-10-17",
   "2026-10-30"
  ],
  "activities": [
+  {
+   "activityId": 24903663655,
+   "activityName": "Den Haag - 6 sprints 10'",
+   "startTimeLocal": "2026-10-30 12:00:16",
+   "distance": 5561.81005859375,
+   "duration": 2139.306884765625,
+   "averageHR": 147.0,
+   "maxHR": 185.0,
+   "averageSpeed": 2.5999999046325684,
+   "elevationGain": 29.0,
+   "calories": 510.0,
+   "aerobicTrainingEffect": 3.0,
+   "anaerobicTrainingEffect": 2.5,
+   "trainingEffectLabel": "SPEED",
+   "activityType": {
+    "typeId": 1,
+    "typeKey": "running",
+    "parentTypeId": 17
+   }
+  },
   {
    "activityId": 24895591877,
    "activityName": "Den Haag Hardlopen",

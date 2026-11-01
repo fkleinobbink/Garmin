@@ -1,8 +1,8 @@
 {
- "synced_utc": "2026-10-31T20:26:59",
+ "synced_utc": "2026-11-01T00:05:51",
  "range": [
-  "2026-10-18",
-  "2026-10-31"
+  "2026-10-19",
+  "2026-11-01"
  ],
  "activities": [
   {
@@ -139,26 +139,6 @@
    "aerobicTrainingEffect": 2.299999952316284,
    "anaerobicTrainingEffect": 0.0,
    "trainingEffectLabel": "RECOVERY",
-   "activityType": {
-    "typeId": 1,
-    "typeKey": "running",
-    "parentTypeId": 17
-   }
-  },
-  {
-   "activityId": 24766369806,
-   "activityName": "Amsterdam - TCS Amsterdam Marathon",
-   "startTimeLocal": "2026-10-18 09:18:47",
-   "distance": 42587.23828125,
-   "duration": 12041.443359375,
-   "averageHR": 168.0,
-   "maxHR": 191.0,
-   "averageSpeed": 3.5369999408721924,
-   "elevationGain": 103.0,
-   "calories": 3448.0,
-   "aerobicTrainingEffect": 5.0,
-   "anaerobicTrainingEffect": 0.699999988079071,
-   "trainingEffectLabel": "VO2MAX",
    "activityType": {
     "typeId": 1,
     "typeKey": "running",

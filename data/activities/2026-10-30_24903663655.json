@@ -289,14 +289,14 @@
    "hasRunPowerWindData": false,
    "calendarEventInfo": null,
    "hasMultiDayActivities": false,
-   "personalRecord": false,
-   "gcj02": false,
+   "manualActivity": false,
+   "trimmed": false,
+   "elevationCorrected": false,
    "runPowerWindDataEnabled": true,
    "autoCalcCalories": false,
    "favorite": false,
-   "manualActivity": false,
-   "elevationCorrected": false,
-   "trimmed": false
+   "personalRecord": false,
+   "gcj02": false
   },
   "summaryDTO": {
    "startTimeLocal": "2026-10-30T12:00:16.0",

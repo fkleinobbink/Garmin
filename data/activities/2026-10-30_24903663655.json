@@ -230,13 +230,13 @@
   "endTimeGMT": "2026-10-30 11:43:36",
   "qualifyingDive": false,
   "activityUUID": "250de483-521a-4d9a-a90c-9395be13032f",
-  "elevationCorrected": false,
   "decoDive": false,
-  "parent": false,
   "pr": false,
-  "favorite": false,
   "autoCalcCalories": false,
-  "manualActivity": false
+  "elevationCorrected": false,
+  "manualActivity": false,
+  "parent": false,
+  "favorite": false
  },
  "detail": {
   "activityId": 24903663655,
@@ -289,14 +289,14 @@
    "hasRunPowerWindData": false,
    "calendarEventInfo": null,
    "hasMultiDayActivities": false,
-   "elevationCorrected": false,
+   "personalRecord": false,
+   "gcj02": false,
    "runPowerWindDataEnabled": true,
-   "trimmed": false,
-   "manualActivity": false,
    "autoCalcCalories": false,
    "favorite": false,
-   "personalRecord": false,
-   "gcj02": false
+   "manualActivity": false,
+   "elevationCorrected": false,
+   "trimmed": false
   },
   "summaryDTO": {
    "startTimeLocal": "2026-10-30T12:00:16.0",

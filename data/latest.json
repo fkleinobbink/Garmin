@@ -1,10 +1,30 @@
 {
- "synced_utc": "2026-11-02T13:27:25",
+ "synced_utc": "2026-11-02T20:31:44",
  "range": [
   "2026-10-20",
   "2026-11-02"
  ],
  "activities": [
+  {
+   "activityId": 24943623269,
+   "activityName": "Den Haag Hardlopen",
+   "startTimeLocal": "2026-11-02 19:07:44",
+   "distance": 12348.0302734375,
+   "duration": 4535.501953125,
+   "averageHR": 126.0,
+   "maxHR": 135.0,
+   "averageSpeed": 2.7230000495910645,
+   "elevationGain": 13.0,
+   "calories": 953.0,
+   "aerobicTrainingEffect": 2.799999952316284,
+   "anaerobicTrainingEffect": 0.0,
+   "trainingEffectLabel": "AEROBIC_BASE",
+   "activityType": {
+    "typeId": 1,
+    "typeKey": "running",
+    "parentTypeId": 17
+   }
+  },
   {
    "activityId": 24927796885,
    "activityName": "Den Haag Hardlopen",

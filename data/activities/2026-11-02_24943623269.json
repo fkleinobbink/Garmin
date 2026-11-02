@@ -142,6 +142,8 @@
    }
   ],
   "isManualActivity": false,
+  "moderateIntensityMinutes": 1,
+  "vigorousIntensityMinutes": 77,
   "avgGradeAdjustedSpeed": 2.7170000076293945,
   "differenceBodyBattery": -17,
   "fastestSplit_1000": 347.62200927734375,
@@ -275,6 +277,8 @@
    "minActivityLapDuration": 127.5,
    "directWorkoutFeel": 50,
    "directWorkoutRpe": 30,
+   "moderateIntensityMinutes": 1,
+   "vigorousIntensityMinutes": 77,
    "steps": 13146,
    "avgGradeAdjustedSpeed": 2.7170000076293945,
    "differenceBodyBattery": -17

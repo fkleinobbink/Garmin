@@ -414,13 +414,13 @@
    "endTimeGMT": "2026-10-21 16:17:10",
    "qualifyingDive": false,
    "activityUUID": "eb099dcf-8a86-4473-839b-bd55c752fc7f",
-   "decoDive": false,
-   "manualActivity": false,
-   "pr": false,
-   "autoCalcCalories": false,
    "elevationCorrected": false,
+   "decoDive": false,
+   "parent": false,
+   "pr": false,
    "favorite": false,
-   "parent": false
+   "autoCalcCalories": false,
+   "manualActivity": false
   }
  ]
 }

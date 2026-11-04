@@ -1,10 +1,30 @@
 {
- "synced_utc": "2026-11-03T22:17:17",
+ "synced_utc": "2026-11-04T17:20:15",
  "range": [
-  "2026-10-21",
-  "2026-11-03"
+  "2026-10-22",
+  "2026-11-04"
  ],
  "activities": [
+  {
+   "activityId": 24965851378,
+   "activityName": "Den Haag - 5x1200 4x200",
+   "startTimeLocal": "2026-11-04 16:57:41",
+   "distance": 10838.08984375,
+   "duration": 3358.035888671875,
+   "averageHR": 161.0,
+   "maxHR": 190.0,
+   "averageSpeed": 3.2279999256134033,
+   "elevationGain": 21.0,
+   "calories": 891.0,
+   "aerobicTrainingEffect": 4.300000190734863,
+   "anaerobicTrainingEffect": 3.5999999046325684,
+   "trainingEffectLabel": "VO2MAX",
+   "activityType": {
+    "typeId": 1,
+    "typeKey": "running",
+    "parentTypeId": 17
+   }
+  },
   {
    "activityId": 24954937518,
    "activityName": "Den Haag Hardlopen",
@@ -159,26 +179,6 @@
    "aerobicTrainingEffect": 3.9000000953674316,
    "anaerobicTrainingEffect": 1.100000023841858,
    "trainingEffectLabel": "TEMPO",
-   "activityType": {
-    "typeId": 1,
-    "typeKey": "running",
-    "parentTypeId": 17
-   }
-  },
-  {
-   "activityId": 24804717245,
-   "activityName": "Den Haag Hardlopen",
-   "startTimeLocal": "2026-10-21 17:51:13",
-   "distance": 4229.91015625,
-   "duration": 1557.7659912109375,
-   "averageHR": 145.0,
-   "maxHR": 157.0,
-   "averageSpeed": 2.7149999141693115,
-   "elevationGain": 15.0,
-   "calories": 370.0,
-   "aerobicTrainingEffect": 2.5,
-   "anaerobicTrainingEffect": 0.0,
-   "trainingEffectLabel": "AEROBIC_BASE",
    "activityType": {
     "typeId": 1,
     "typeKey": "running",

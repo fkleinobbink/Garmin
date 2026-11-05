@@ -464,12 +464,12 @@
    "endTimeGMT": "2026-10-29 17:10:24",
    "qualifyingDive": false,
    "activityUUID": "490ab9fd-1837-4c49-859b-1c2432a7dacb",
-   "decoDive": false,
-   "manualActivity": false,
-   "pr": false,
    "autoCalcCalories": false,
-   "elevationCorrected": false,
    "favorite": false,
+   "elevationCorrected": false,
+   "decoDive": false,
+   "pr": false,
+   "manualActivity": false,
    "parent": false
   }
  ]

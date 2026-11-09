@@ -193,14 +193,14 @@
    "hasRunPowerWindData": false,
    "calendarEventInfo": null,
    "hasMultiDayActivities": false,
-   "personalRecord": false,
-   "gcj02": false,
-   "runPowerWindDataEnabled": true,
    "autoCalcCalories": false,
    "favorite": false,
-   "manualActivity": false,
+   "trimmed": false,
    "elevationCorrected": false,
-   "trimmed": false
+   "manualActivity": false,
+   "runPowerWindDataEnabled": true,
+   "personalRecord": false,
+   "gcj02": false
   },
   "summaryDTO": {
    "startTimeLocal": "2026-11-08T01:41:58.0",

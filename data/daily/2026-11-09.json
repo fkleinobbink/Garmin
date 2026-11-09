@@ -141,7 +141,21 @@
    "displayedForTheDay": true,
    "preferredActivityTracker": true
   },
-  "nextSleepNeed": null,
+  "nextSleepNeed": {
+   "userProfilePk": 132104720,
+   "calendarDate": "2026-11-10",
+   "deviceId": 3527883467,
+   "timestampGmt": "2026-11-09T06:52:39",
+   "baseline": 480,
+   "actual": 480,
+   "feedback": "NO_CHANGE_NO_ADJUSTMENTS",
+   "trainingFeedback": "NO_CHANGE",
+   "sleepHistoryAdjustment": "NO_DATA",
+   "hrvAdjustment": "NO_DATA",
+   "napAdjustment": "NO_CHANGE",
+   "displayedForTheDay": false,
+   "preferredActivityTracker": true
+  },
   "sleepAlignment": null
  },
  "hrv": null,

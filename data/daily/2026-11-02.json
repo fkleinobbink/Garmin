@@ -434,11 +434,11 @@
    "activityUUID": "64f866b5-0436-46b4-81ee-43f23f22a262",
    "elevationCorrected": false,
    "decoDive": false,
-   "parent": false,
-   "pr": false,
-   "favorite": false,
    "autoCalcCalories": false,
-   "manualActivity": false
+   "favorite": false,
+   "pr": false,
+   "manualActivity": false,
+   "parent": false
   }
  ]
 }

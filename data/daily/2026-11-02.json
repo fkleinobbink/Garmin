@@ -159,23 +159,6 @@
   "awakeSleepSeconds": null,
   "deviceRemCapable": false,
   "retro": false,
-  "sleepFromDevice": null,
-  "averageSpO2Value": null,
-  "lowestSpO2Value": null,
-  "highestSpO2Value": null,
-  "numberOfEventsBelowThreshold": null,
-  "averageSpO2HRSleep": null,
-  "spo2Threshold": null,
-  "averageRespirationValue": null,
-  "lowestRespirationValue": null,
-  "highestRespirationValue": null,
-  "awakeCount": null,
-  "avgSleepStress": null,
-  "ageGroup": null,
-  "avgHeartRate": null,
-  "sleepScorePersonalizedInsight": null,
-  "userNote": null,
-  "sleepVersion": null,
   "sleepNeed": {
    "userProfilePk": 132104720,
    "calendarDate": "2026-11-02",
@@ -205,8 +188,7 @@
    "napAdjustment": "NO_CHANGE",
    "displayedForTheDay": false,
    "preferredActivityTracker": true
-  },
-  "sleepAlignment": null
+  }
  },
  "hrv": null,
  "body_battery": [
@@ -433,12 +415,12 @@
    "qualifyingDive": false,
    "activityUUID": "64f866b5-0436-46b4-81ee-43f23f22a262",
    "decoDive": false,
-   "pr": false,
+   "favorite": false,
    "autoCalcCalories": false,
    "elevationCorrected": false,
-   "manualActivity": false,
    "parent": false,
-   "favorite": false
+   "pr": false,
+   "manualActivity": false
   }
  ]
 }

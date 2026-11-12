@@ -175,12 +175,12 @@
   "qualifyingDive": false,
   "activityUUID": "f13b4024-7e4b-44d5-956e-4468a010cb08",
   "decoDive": false,
-  "favorite": false,
+  "manualActivity": false,
+  "pr": false,
   "autoCalcCalories": false,
   "elevationCorrected": false,
-  "parent": false,
-  "pr": false,
-  "manualActivity": false
+  "favorite": false,
+  "parent": false
  },
  "detail": {
   "activityId": 25043735127,
@@ -236,10 +236,10 @@
     "FBT_ADAPTIVE"
    ],
    "hasMultiDayActivities": false,
-   "manualActivity": false,
+   "elevationCorrected": false,
    "runPowerWindDataEnabled": true,
    "trimmed": false,
-   "elevationCorrected": false,
+   "manualActivity": false,
    "autoCalcCalories": false,
    "favorite": false,
    "personalRecord": false,

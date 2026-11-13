@@ -1,8 +1,8 @@
 {
- "synced_utc": "2026-11-12T22:42:50",
+ "synced_utc": "2026-11-13T13:03:50",
  "range": [
-  "2026-10-30",
-  "2026-11-12"
+  "2026-10-31",
+  "2026-11-13"
  ],
  "activities": [
   {
@@ -179,26 +179,6 @@
    "aerobicTrainingEffect": 4.599999904632568,
    "anaerobicTrainingEffect": 0.0,
    "trainingEffectLabel": "LACTATE_THRESHOLD",
-   "activityType": {
-    "typeId": 1,
-    "typeKey": "running",
-    "parentTypeId": 17
-   }
-  },
-  {
-   "activityId": 24903663655,
-   "activityName": "Den Haag - 6 sprints 10'",
-   "startTimeLocal": "2026-10-30 12:00:16",
-   "distance": 5561.81005859375,
-   "duration": 2139.306884765625,
-   "averageHR": 147.0,
-   "maxHR": 185.0,
-   "averageSpeed": 2.5999999046325684,
-   "elevationGain": 29.0,
-   "calories": 510.0,
-   "aerobicTrainingEffect": 3.0,
-   "anaerobicTrainingEffect": 2.5,
-   "trainingEffectLabel": "SPEED",
    "activityType": {
     "typeId": 1,
     "typeKey": "running",

@@ -382,9 +382,9 @@
    "activityUUID": "9918852b-4562-4063-ab3e-4a133a29e5cf",
    "autoCalcCalories": false,
    "elevationCorrected": false,
-   "pr": false,
    "decoDive": false,
    "favorite": false,
+   "pr": false,
    "parent": false,
    "manualActivity": false
   }

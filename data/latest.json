@@ -1,8 +1,8 @@
 {
- "synced_utc": "2026-11-14T21:26:38",
+ "synced_utc": "2026-11-15T12:41:56",
  "range": [
-  "2026-11-01",
-  "2026-11-14"
+  "2026-11-02",
+  "2026-11-15"
  ],
  "activities": [
   {
@@ -164,29 +164,21 @@
     "typeKey": "running",
     "parentTypeId": 17
    }
-  },
-  {
-   "activityId": 24927796885,
-   "activityName": "Den Haag Hardlopen",
-   "startTimeLocal": "2026-11-01 11:14:13",
-   "distance": 21452.25,
-   "duration": 6935.52197265625,
-   "averageHR": 152.0,
-   "maxHR": 177.0,
-   "averageSpeed": 3.092999935150147,
-   "elevationGain": 67.0,
-   "calories": 1776.0,
-   "aerobicTrainingEffect": 4.599999904632568,
-   "anaerobicTrainingEffect": 0.0,
-   "trainingEffectLabel": "LACTATE_THRESHOLD",
-   "activityType": {
-    "typeId": 1,
-    "typeKey": "running",
-    "parentTypeId": 17
-   }
   }
  ],
  "hrv": {
-  "no_data": "Garmin returned nothing for this request: nothing was recorded for that date yet, or your device doesn't measure it."
+  "hrvSummaries": [
+   {
+    "calendarDate": "2026-11-14",
+    "weeklyAvg": null,
+    "lastNightAvg": 43,
+    "lastNight5MinHigh": 74,
+    "baseline": null,
+    "status": "NONE",
+    "feedbackPhrase": "ONBOARDING_1",
+    "createTimeStamp": "2026-11-15T07:47:00.279"
+   }
+  ],
+  "userProfilePk": 132104720
  }
 }

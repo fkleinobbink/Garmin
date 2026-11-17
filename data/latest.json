@@ -1,10 +1,30 @@
 {
- "synced_utc": "2026-11-17T14:20:15",
+ "synced_utc": "2026-11-17T18:29:33",
  "range": [
   "2026-11-04",
   "2026-11-17"
  ],
  "activities": [
+  {
+   "activityId": 25111390411,
+   "activityName": "Den Haag - 3x1k 3:35+5x300m",
+   "startTimeLocal": "2026-11-17 18:20:46",
+   "distance": 9506.3896484375,
+   "duration": 3178.31201171875,
+   "averageHR": 155.0,
+   "maxHR": 192.0,
+   "averageSpeed": 2.990999937057495,
+   "elevationGain": 57.0,
+   "calories": 808.0,
+   "aerobicTrainingEffect": 3.799999952316284,
+   "anaerobicTrainingEffect": 3.5,
+   "trainingEffectLabel": "ANAEROBIC_CAPACITY",
+   "activityType": {
+    "typeId": 1,
+    "typeKey": "running",
+    "parentTypeId": 17
+   }
+  },
   {
    "activityId": 25088269785,
    "activityName": "Den Haag Hardlopen",

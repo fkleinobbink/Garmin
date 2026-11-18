@@ -202,11 +202,11 @@
    ],
    "hasMultiDayActivities": false,
    "elevationCorrected": false,
-   "runPowerWindDataEnabled": true,
    "manualActivity": false,
-   "trimmed": false,
    "autoCalcCalories": false,
    "favorite": false,
+   "trimmed": false,
+   "runPowerWindDataEnabled": true,
    "personalRecord": false,
    "gcj02": false
   },

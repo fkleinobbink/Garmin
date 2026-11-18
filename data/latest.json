@@ -1,8 +1,8 @@
 {
- "synced_utc": "2026-11-17T23:50:05",
+ "synced_utc": "2026-11-18T13:54:27",
  "range": [
-  "2026-11-04",
-  "2026-11-17"
+  "2026-11-05",
+  "2026-11-18"
  ],
  "activities": [
   {
@@ -139,26 +139,6 @@
    "aerobicTrainingEffect": 3.0,
    "anaerobicTrainingEffect": 0.20000000298023224,
    "trainingEffectLabel": "AEROBIC_BASE",
-   "activityType": {
-    "typeId": 1,
-    "typeKey": "running",
-    "parentTypeId": 17
-   }
-  },
-  {
-   "activityId": 24965851378,
-   "activityName": "Den Haag - 5x1200 4x200",
-   "startTimeLocal": "2026-11-04 16:57:41",
-   "distance": 10838.08984375,
-   "duration": 3358.035888671875,
-   "averageHR": 161.0,
-   "maxHR": 190.0,
-   "averageSpeed": 3.2279999256134033,
-   "elevationGain": 21.0,
-   "calories": 891.0,
-   "aerobicTrainingEffect": 4.300000190734863,
-   "anaerobicTrainingEffect": 3.5999999046325684,
-   "trainingEffectLabel": "VO2MAX",
    "activityType": {
     "typeId": 1,
     "typeKey": "running",

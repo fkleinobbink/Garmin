@@ -332,10 +332,10 @@
    "autoCalcCalories": false,
    "favorite": false,
    "parent": false,
-   "decoDive": false,
-   "manualActivity": false,
    "elevationCorrected": false,
-   "pr": false
+   "decoDive": false,
+   "pr": false,
+   "manualActivity": false
   }
  ]
 }

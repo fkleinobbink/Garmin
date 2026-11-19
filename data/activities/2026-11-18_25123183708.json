@@ -201,12 +201,12 @@
     "FBT_ADAPTIVE"
    ],
    "hasMultiDayActivities": false,
+   "elevationCorrected": false,
+   "manualActivity": false,
    "autoCalcCalories": false,
    "favorite": false,
-   "manualActivity": false,
-   "elevationCorrected": false,
-   "runPowerWindDataEnabled": true,
    "trimmed": false,
+   "runPowerWindDataEnabled": true,
    "personalRecord": false,
    "gcj02": false
   },

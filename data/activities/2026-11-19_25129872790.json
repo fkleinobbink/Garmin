@@ -233,10 +233,10 @@
    "hasMultiDayActivities": false,
    "autoCalcCalories": false,
    "favorite": false,
-   "elevationCorrected": false,
    "manualActivity": false,
-   "trimmed": false,
+   "elevationCorrected": false,
    "runPowerWindDataEnabled": true,
+   "trimmed": false,
    "personalRecord": false,
    "gcj02": false
   },

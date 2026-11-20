@@ -169,12 +169,12 @@
   "endTimeGMT": "2026-11-19 11:58:15",
   "qualifyingDive": false,
   "activityUUID": "cc35e7b3-22b3-4d7f-a6c8-523c30a448ec",
-  "favorite": false,
   "decoDive": false,
-  "pr": false,
-  "autoCalcCalories": false,
   "elevationCorrected": false,
+  "pr": false,
   "manualActivity": false,
+  "autoCalcCalories": false,
+  "favorite": false,
   "parent": false
  },
  "detail": {
@@ -231,11 +231,11 @@
     "FBT_ADAPTIVE"
    ],
    "hasMultiDayActivities": false,
+   "autoCalcCalories": false,
+   "favorite": false,
    "trimmed": false,
    "elevationCorrected": false,
    "runPowerWindDataEnabled": true,
-   "autoCalcCalories": false,
-   "favorite": false,
    "manualActivity": false,
    "personalRecord": false,
    "gcj02": false

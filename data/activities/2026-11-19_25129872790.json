@@ -231,12 +231,12 @@
     "FBT_ADAPTIVE"
    ],
    "hasMultiDayActivities": false,
-   "runPowerWindDataEnabled": true,
-   "manualActivity": false,
    "trimmed": false,
-   "elevationCorrected": false,
    "autoCalcCalories": false,
    "favorite": false,
+   "manualActivity": false,
+   "elevationCorrected": false,
+   "runPowerWindDataEnabled": true,
    "personalRecord": false,
    "gcj02": false
   },

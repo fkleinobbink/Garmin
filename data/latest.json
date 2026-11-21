@@ -1,8 +1,8 @@
 {
- "synced_utc": "2026-11-20T23:03:58",
+ "synced_utc": "2026-11-21T13:26:02",
  "range": [
-  "2026-11-07",
-  "2026-11-20"
+  "2026-11-08",
+  "2026-11-21"
  ],
  "activities": [
   {
@@ -159,26 +159,6 @@
    "aerobicTrainingEffect": 1.0,
    "anaerobicTrainingEffect": 2.0,
    "trainingEffectLabel": "ANAEROBIC_CAPACITY",
-   "activityType": {
-    "typeId": 1,
-    "typeKey": "running",
-    "parentTypeId": 17
-   }
-  },
-  {
-   "activityId": 24998482075,
-   "activityName": "Den Haag - 8x10'",
-   "startTimeLocal": "2026-11-07 14:46:54",
-   "distance": 8822.01953125,
-   "duration": 3123.3330078125,
-   "averageHR": 145.0,
-   "maxHR": 187.0,
-   "averageSpeed": 2.825000047683716,
-   "elevationGain": 10.0,
-   "calories": 740.0,
-   "aerobicTrainingEffect": 3.200000047683716,
-   "anaerobicTrainingEffect": 2.4000000953674316,
-   "trainingEffectLabel": "SPEED",
    "activityType": {
     "typeId": 1,
     "typeKey": "running",

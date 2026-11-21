@@ -1,10 +1,30 @@
 {
- "synced_utc": "2026-11-21T13:26:02",
+ "synced_utc": "2026-11-21T22:10:14",
  "range": [
   "2026-11-08",
   "2026-11-21"
  ],
  "activities": [
+  {
+   "activityId": 25153554765,
+   "activityName": "Amsterdam - 5k tt",
+   "startTimeLocal": "2026-11-21 15:24:57",
+   "distance": 7320.14013671875,
+   "duration": 1916.0469970703125,
+   "averageHR": 168.0,
+   "maxHR": 194.0,
+   "averageSpeed": 3.819999933242798,
+   "elevationGain": 17.0,
+   "calories": 573.0,
+   "aerobicTrainingEffect": 4.199999809265137,
+   "anaerobicTrainingEffect": 2.0,
+   "trainingEffectLabel": "VO2MAX",
+   "activityType": {
+    "typeId": 1,
+    "typeKey": "running",
+    "parentTypeId": 17
+   }
+  },
   {
    "activityId": 25142447794,
    "activityName": "Den Haag Hardlopen",

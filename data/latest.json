@@ -1,8 +1,8 @@
 {
- "synced_utc": "2026-11-23T20:10:42",
+ "synced_utc": "2026-11-24T03:19:48",
  "range": [
-  "2026-11-10",
-  "2026-11-23"
+  "2026-11-11",
+  "2026-11-24"
  ],
  "activities": [
   {
@@ -159,26 +159,6 @@
    "aerobicTrainingEffect": 3.700000047683716,
    "anaerobicTrainingEffect": 0.0,
    "trainingEffectLabel": "AEROBIC_BASE",
-   "activityType": {
-    "typeId": 1,
-    "typeKey": "running",
-    "parentTypeId": 17
-   }
-  },
-  {
-   "activityId": 25032826375,
-   "activityName": "Den Haag - 10x400",
-   "startTimeLocal": "2026-11-10 16:23:01",
-   "distance": 9781.6396484375,
-   "duration": 3170.820068359375,
-   "averageHR": 156.0,
-   "maxHR": 191.0,
-   "averageSpeed": 3.0850000381469727,
-   "elevationGain": 14.0,
-   "calories": 820.0,
-   "aerobicTrainingEffect": 3.9000000953674316,
-   "anaerobicTrainingEffect": 3.4000000953674316,
-   "trainingEffectLabel": "ANAEROBIC_CAPACITY",
    "activityType": {
     "typeId": 1,
     "typeKey": "running",

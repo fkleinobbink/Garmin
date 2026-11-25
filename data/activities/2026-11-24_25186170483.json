@@ -139,6 +139,8 @@
    }
   ],
   "isManualActivity": false,
+  "moderateIntensityMinutes": 1,
+  "vigorousIntensityMinutes": 54,
   "avgGradeAdjustedSpeed": 3.1789999008178715,
   "differenceBodyBattery": -10,
   "fastestSplit_1000": 306.67498779296875,
@@ -159,12 +161,12 @@
   "qualifyingDive": false,
   "activityUUID": "e705a5e2-abf1-4a6a-9611-f1d8ca9c7ab0",
   "favorite": false,
-  "elevationCorrected": false,
-  "autoCalcCalories": false,
   "decoDive": false,
-  "parent": false,
   "pr": false,
-  "manualActivity": false
+  "autoCalcCalories": false,
+  "elevationCorrected": false,
+  "manualActivity": false,
+  "parent": false
  },
  "detail": {
   "activityId": 25186170483,
@@ -220,12 +222,12 @@
     "FBT_ADAPTIVE"
    ],
    "hasMultiDayActivities": false,
-   "manualActivity": false,
+   "elevationCorrected": false,
    "trimmed": false,
+   "manualActivity": false,
    "autoCalcCalories": false,
    "favorite": false,
    "runPowerWindDataEnabled": true,
-   "elevationCorrected": false,
    "personalRecord": false,
    "gcj02": false
   },
@@ -275,6 +277,8 @@
    "minActivityLapDuration": 166.512,
    "directWorkoutFeel": 50,
    "directWorkoutRpe": 30,
+   "moderateIntensityMinutes": 1,
+   "vigorousIntensityMinutes": 54,
    "steps": 9892,
    "avgGradeAdjustedSpeed": 3.1789999008178715,
    "differenceBodyBattery": -10

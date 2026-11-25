@@ -1,10 +1,30 @@
 {
- "synced_utc": "2026-11-25T15:32:44",
+ "synced_utc": "2026-11-25T19:50:10",
  "range": [
   "2026-11-12",
   "2026-11-25"
  ],
  "activities": [
+  {
+   "activityId": 25197989342,
+   "activityName": "Den Haag - 3x3k+3' rust",
+   "startTimeLocal": "2026-11-25 18:00:36",
+   "distance": 13655.849609375,
+   "duration": 4031.31591796875,
+   "averageHR": 161.0,
+   "maxHR": 186.0,
+   "averageSpeed": 3.38700008392334,
+   "elevationGain": 37.0,
+   "calories": 1066.0,
+   "aerobicTrainingEffect": 4.400000095367432,
+   "anaerobicTrainingEffect": 2.5,
+   "trainingEffectLabel": "VO2MAX",
+   "activityType": {
+    "typeId": 1,
+    "typeKey": "running",
+    "parentTypeId": 17
+   }
+  },
   {
    "activityId": 25186170483,
    "activityName": "Den Haag Hardlopen",

@@ -450,11 +450,11 @@
    "qualifyingDive": false,
    "activityUUID": "9935fcd3-df5a-4d15-9720-2a2391e26f74",
    "decoDive": false,
-   "manualActivity": false,
-   "favorite": false,
-   "autoCalcCalories": false,
    "elevationCorrected": false,
    "pr": false,
+   "manualActivity": false,
+   "autoCalcCalories": false,
+   "favorite": false,
    "parent": false
   }
  ]

@@ -161,12 +161,12 @@
   "qualifyingDive": false,
   "activityUUID": "e705a5e2-abf1-4a6a-9611-f1d8ca9c7ab0",
   "favorite": false,
-  "decoDive": false,
-  "pr": false,
-  "autoCalcCalories": false,
   "elevationCorrected": false,
-  "manualActivity": false,
-  "parent": false
+  "autoCalcCalories": false,
+  "decoDive": false,
+  "parent": false,
+  "pr": false,
+  "manualActivity": false
  },
  "detail": {
   "activityId": 25186170483,
@@ -222,14 +222,14 @@
     "FBT_ADAPTIVE"
    ],
    "hasMultiDayActivities": false,
+   "runPowerWindDataEnabled": true,
+   "manualActivity": false,
+   "trimmed": false,
+   "elevationCorrected": false,
    "autoCalcCalories": false,
    "favorite": false,
-   "elevationCorrected": false,
-   "manualActivity": false,
    "personalRecord": false,
-   "gcj02": false,
-   "trimmed": false,
-   "runPowerWindDataEnabled": true
+   "gcj02": false
   },
   "summaryDTO": {
    "startTimeLocal": "2026-11-24T17:16:14.0",

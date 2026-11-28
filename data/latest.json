@@ -1,5 +1,5 @@
 {
- "synced_utc": "2026-11-28T00:31:21",
+ "synced_utc": "2026-11-28T14:08:25",
  "range": [
   "2026-11-15",
   "2026-11-28"
@@ -207,6 +207,18 @@
   }
  ],
  "hrv": {
-  "no_data": "Garmin returned nothing for this request: nothing was recorded for that date yet, or your device doesn't measure it."
+  "hrvSummaries": [
+   {
+    "calendarDate": "2026-11-28",
+    "weeklyAvg": null,
+    "lastNightAvg": 55,
+    "lastNight5MinHigh": 52,
+    "baseline": null,
+    "status": "NONE",
+    "feedbackPhrase": "ONBOARDING_1",
+    "createTimeStamp": "2026-11-28T09:32:14.138"
+   }
+  ],
+  "userProfilePk": 132104720
  }
 }
